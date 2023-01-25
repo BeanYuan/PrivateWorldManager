@@ -1,0 +1,12 @@
+prefix: '个人世界管理'
+
+MySQL:
+  host: 'localhost'
+  port: '3306'
+  database: 'minecraftdatabase'
+  username: 'root'
+  password: '842655ww'
+
+green_status: '绿色认证世界'
+private_status: '私人世界'
+public_status: '公共世界'

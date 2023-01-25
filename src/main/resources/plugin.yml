@@ -1,0 +1,85 @@
+name: PrivateWorldManager
+version: ${project.version}
+main: beanyuan.privateworldmanager.PrivateWorldManager
+api-version: 1.18
+commands:
+  pwm:
+    description: 私人世界管理总指令
+    usage: /<command> [argument]
+permissions:
+  privateworldmanager.create:
+    description: 私人世界创建
+    default: false
+  privateworldmanager.create.other:
+    description: 私人世界创建他人
+    default: false
+  privateworldmanager.visit:
+    description: 私人世界给予访问权限
+    default: false
+  privateworldmanager.visit.other:
+    description: 私人世界给予他人世界访问权限
+    default: false
+  privateworldmanager.visitlist:
+    description: 私人世界显示世界访问权限列表
+    default: false
+  privateworldmanager.visitlist.other:
+    description: 私人世界显示他人世界访问权限列表
+    default: false
+  privateworldmanager.build:
+    description: 私人世界给予建筑权限
+    default: false
+  privateworldmanager.build.other:
+    description: 私人世界给予他人世界建筑权限
+    default: false
+  privateworldmanager.blacklist:
+    description: 私人世界添加黑名单
+    default: false
+  privateworldmanager.blacklist.other:
+    description: 私人世界添加他人世界黑名单
+    default: false
+  privateworldmanager.tp:
+    description: 私人世界传送
+    default: false
+  privateworldmanager.tp.other:
+    description: 私人世界传送他人世界
+    default: false
+  privateworldmanager.weather:
+    description: 私人世界设置天气
+    default: false
+  privateworldmanager.weather.other:
+    description: 私人世界设置他人世界天气
+    default: false
+  privateworldmanager.visible:
+    description: 私人世界设置可见
+    default: false
+  privateworldmanager.visible.other:
+    description: 私人世界设置他人世界可见
+    default: false
+  privateworldmanager.invisible:
+    description: 私人世界设置不可见
+    default: false
+  privateworldmanager.invisible.other:
+    description: 私人世界设置他人世界不可见
+    default: false
+  privateworldmanager.time:
+    description: 私人世界设置时间
+    default: false
+  privateworldmanager.time.other:
+    description: 私人世界设置他人世界时间
+    default: false
+  privateworldmanager.backup:
+    description: 私人世界备份
+    default: false
+  privateworldmanager.backup.other:
+    description: 私人世界备份他人世界
+    default: false
+  privateworldmanager.backup.all:
+    description: 私人世界备份所有世界
+    default: false
+  privateworldmanager.remove:
+    description: 私人世界删除
+    default: false
+  privateworldmanager.remove.other:
+    description: 私人世界删除他人世界
+    default: false
+
